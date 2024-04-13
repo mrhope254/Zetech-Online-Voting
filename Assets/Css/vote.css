@@ -1,0 +1,51 @@
+:root{
+	--color-primary1: #1c1d3b;
+	--color-primaryOne:#47498a;
+    --color-primary2: #89734c;
+    --color-text1: #333;
+    --color-white: #fff;
+    --color-footer: #111;
+}
+
+
+.detail-el{
+    width: 100%;
+}
+
+.detail-el p{
+  text-align:left;
+  font-size: 1rem;
+}
+
+.detail-el form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 1rem;
+
+}
+
+.reg input, .course input{
+  padding-right:2rem;
+  padding-left: 0.5rem;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+  border:none;
+  background-color: rgb(235, 238, 238);
+}
+
+.vote{
+  border: none;
+  background-color: var(--color-primary1);
+  color: #fff;
+  margin-top: 3rem;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  padding-bottom: 0.7rem;
+  padding-top: 0.7rem;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  cursor: pointer;
+}

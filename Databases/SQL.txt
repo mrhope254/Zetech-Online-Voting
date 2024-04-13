@@ -1,0 +1,12 @@
+create table users(
+SN int primary key auto_increment,
+First_Name varchar (100),
+Last_Name varchar(100),
+Registration_No varchar(100) unique,
+Level_Study varchar(100),
+Course varchar(150),
+Year_Study varchar(50),
+Student_Email varchar(150),
+User_Pass varchar(255),
+Reg_Date datetime default now()
+);

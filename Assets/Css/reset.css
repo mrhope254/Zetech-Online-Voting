@@ -1,0 +1,97 @@
+
+
+:root{
+	--color-primary1: #1c1d3b;
+	--color-primaryOne:#47498a;
+    --color-primary2: #89734c;
+    --color-text1: #333;
+    --color-white: #fff;
+    --color-footer: #111;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+input {
+	background-color: #eee;
+	border: none;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+   
+}
+
+
+
+form .email{
+    padding: 2%;
+    margin-bottom: 2%;
+
+}
+
+.reg-no{
+    padding: 2%;
+    margin-bottom: 2%;
+}
+
+form .submit{
+    cursor: pointer;
+    padding: 2%;
+    color: var(--color-white);
+    background: var(--color-primary1);
+    font-size: 1rem
+}
+
+
+.container{
+ width: 100%;
+ height: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ background: #ececec;
+ gap: 1rem;
+}
+
+.resetEl{
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 1rem 1rem 3rem 3rem rgba(177, 177, 177, 0.6);
+}
+
+
+.title{
+    width: 100%;   
+    margin-top: 3%; 
+}
+
+.title p, h1{
+    text-align: center;
+    color: #000;
+}
+
+.title h1{
+font-size: 2rem;
+}
+
+.title p{
+    font-size: 1rem;
+}
